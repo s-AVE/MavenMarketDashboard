@@ -112,7 +112,7 @@ The dashboard consists of 3 report pages:
   - ![](asset/2product_performance.jpg)
 - **Customer & Store Detail**
   ---
-  - ![](assets/3custnstore_detail.jpg)
+  - ![](asset/3custnstore_detail.jpg)
 
 ---
 
