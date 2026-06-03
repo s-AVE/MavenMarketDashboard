@@ -8,6 +8,11 @@ This time I'll be working with data from Maven Market, a multi-national grocery 
 
 I worked through the entire business intelligence workflow: connecting and shaping the data, building a relational model, adding calculated fields, and designing an interactive report.
 
+
+> [!IMPORTANT]
+**Data Cutoff:**
+Data ends on **December 31st, 1998**
+
 ---
 
 ## Table of Content
@@ -118,186 +123,112 @@ The dashboard consists of 3 report pages:
 
 ## 7. Data Analysis
 
-### A. Overall Sales Trend
+### A. Business Performance
 
-Adventure Works revenue grew consistently from January 2020 through
-June 2022. Based on monthly data:
-
-**Year-over-Year Revenue Growth:**
-| Year | Total Revenue | Growth |
-|---|---|---|
-| 2020 | $5.4M | Baseline |
-| 2021 | $9.7M | +79.6% vs 2020 |
-| 2022 (Jan–Jun) | $9.2M | On pace to exceed 2021 full year |
-
-The most significant growth occurred in the first half of 2022,
-where every month (Jan–Jun) consistently outperformed the same
-month in the previous year averaging 2–3x growth. January 2022
-($1.27M) grew **194%** compared to January 2021 ($432K), and June 2022
-($1.83M) grew **242%** compared to June 2021 ($534K).
-
-**November 2021 Revenue Dip:**
-The revenue decline in November 2021 was driven by a sharp drop in
-bike transactions **only 191 bike purchases** were recorded that month.
-Given that Bikes is the most profitable category, reduced bike
-transactions had a significant impact on total monthly revenue,
-despite the absolute figure ($1.13M) still being higher than most
-months in 2020. This suggests a seasonal pattern in bike sales
-toward year-end.
-
-> [!IMPORTANT]
-**Data Cutoff:**
-Data ends on **June 30, 2022**. The customer decline visible at the end
-of the trend chart is not an indication of churn — it reflects the
-end boundary of the available dataset.
+Maven Market recorded 1,560 total orders generating $1.8M in total revenue and $1.05M in total profit representing an impressive profit margin of 58.3% at the overall business level. The return rate of 0.99% confirms strong product quality consistency across the entire catalog.
+The overall profit of $1.05M on $1.8M revenue means Maven Market retains $0.58 of every $1.00 sold an exceptionally healthy profitability ratio for a grocery retail operation.
+The return rate of 0.99% is below 1% a strong quality indicator suggesting that less than 1 in 100 items purchased is returned across the entire business
 
 ---
 
 ### B. Product Performance
 
-**Profit by Category:**
-| Category | Profit | Orders | Profit per Order |
-|---|---|---|---|
-| Bikes | $2.9M | 13,929 | ~$208 |
-| Accessories | $112.8K | 16,983 | ~$6.6 |
-| Clothing | $31.6K | 6,976 | ~$4.5 |
+**Revenue & Brand**
+Maven Market generated $1.8M in total revenue across 1,560 orders
+with Hermanos leading at $56.7K, followed closely by Tell Tale
+($51.6K) and Ebony ($49.7K). The top 10 brands cluster tightly
+between $40K–$57K, indicating a competitive mid-tier with no
+single dominant outlier.
 
-Although Accessories leads in transaction volume (16,983 orders
-67% more than Bikes), **the Bikes category generates 25x more profit
-than Accessories**. This highlights a critical insight: a strategy
-focused purely on sales volume without considering margin can be
-misleading for business decision-making.
+**Profitability**
+The business maintains a strong average margin of 59.67% with a
+healthy return rate of 0.99% both well within acceptable ranges.
+Brand positioning analysis reveals that the majority of high revenue
+brands also sit above the margin threshold, confirming that volume
+and profitability are largely aligned for the top performers.
 
-The top-performing product in the Bikes category is the
-**Mountain-200**, which is the highest profit contributor across
-all continents Europe, North America, and Pacific.
+**Inventory**
+Products sell at an average of 4 days on shelf. However, a cluster
+of brands averages 7 days 75% slower than the portfolio average
+indicating slow movers that require promotion intervention or
+discontinuation review.
 
-**Return Rate by Continent:**
-| Continent | Return Rate |
-|---|---|
-| Pacific | 2.25% — highest |
-| Europe | 2.17% |
-| North America | 2.14% — lowest |
+**Sustainability & Health**
+64.62% of products are low fat, reflecting a health-conscious
+assortment. However, 55.96% of products are non-recyclable
+a sustainability gap that may become a competitive disadvantage
+as consumer preferences shift toward eco-friendly options.
 
-The overall return rate of 2.17% remains within an acceptable retail
-threshold (below 5%). However, Pacific warrants closer attention 
-particularly for the **Vests** product type, which records the highest
-return rate in that region. This may indicate a size mismatch or
-differing quality expectations in the Pacific market.
-
-**Top Products per Continent (by Quantity Sold):**
-| Continent | #1 | #2 | #3 |
-|---|---|---|---|
-| Europe | Water Bottle | Road Tire Tube | AWC Logo Cap |
-| North America | Water Bottle | Mountain Tire Tube | Patch Kit/8 Patches |
-| Pacific | Water Bottle | Patch Kit/8 Patches | Road Bottle Cage |
-
-**Water Bottle - 30 oz**. dominates as the **best-selling product** across
-all continents, demonstrating universal and consistent demand across
-all markets. Beyond Water Bottle, product preferences vary
-significantly by continent — indicating the need for localized
-inventory and promotional strategies per region.
+**Returns**
+The top 3 returned products Hermanos Red Pepper (2.83%),
+Shady Lake Spaghetti (2.93%), and Walrus Merlot Wine (2.79%)
+all exceed the portfolio average by nearly 3x, signaling product
+specific quality or expectation issues requiring immediate review.
 
 ---
 
-### C. Most & Least Popular Products
+### Customer & Store Detail
 
-| Rank | Product | Category | Orders |
-|---|---|---|---|
-| 1st | Water Bottle - 30 oz. | Accessories | 3,983 |
-| 2nd | Patch Kit/8 Patches | Accessories | 2,952 |
-| Last | Mountain-100 Silver, 48 | Bikes | 22 |
+**Customer Base**
+Maven Market serves 10,281 unique customers with an average age
+of 54 years. Revenue is well-distributed across all age groups,
+with the 40–49 segment peaking at $271.6K and the 80–89 segment
+still contributing $242.2K confirming strong cross-generational
+appeal with only a 10.8% decline from peak to oldest bracket.
 
-High sales volume does not necessarily reflect high profitability.
-Water Bottle - 30 oz. leads in volume with 3,983 transactions,
-but its margin per unit is significantly smaller than Bikes products.
-Mountain-100 Silver, 48 with only 22 transactions likely
-generates far higher revenue per transaction given the substantial
-price difference between Bikes and Accessories.
+**Gender & Priority**
+Revenue is near-equally split between female ($891.7K) and male
+($872.8K) customers a healthy diversification. However, 90.4%
+of revenue comes from Standard-priority customers, indicating that
+Maven Market's loyalty program has not yet successfully converted
+its mass customer base into higher-value priority members.
 
----
+**Top Customer**
+Mr. Ida Rodriguez (age 57, Skilled Manual) is the top revenue
+customer at $2.2K from 270 orders averaging only $8.15 per
+transaction. This high-frequency, low-basket pattern suggests
+Maven Market lacks high-ticket individual buyers, with revenue
+broadly distributed rather than concentrated in VIP customers.
 
-### D. Customer Detail
+**Education & Occupation**
+Customers with lower formal education (Partial High School:
+$533.2K, High School Degree: $521.7K) drive the most revenue,
+reflecting Maven Market's working-class community positioning.
+On the occupation side, Professional customers dominate at $574.0K
+(31.9% of total), while Clerical at $30.6K is significantly
+underrepresented — pointing to either a pricing or accessibility
+gap for this segment.
 
-Adventure Works served **17,416 unique customers** (comprising both
-repeat buyers and new customers) throughout January 2020 – June 2022,
-with an average customer age of **64 years** a mature, physically
-active segment with stable purchasing power.
-
-**Orders by Occupation:**
-| Occupation | Orders | Share |
-|---|---|---|
-| Professional | 7,900 | 31.6% |
-| Skilled Manual | 5,900 | 23.6% |
-| Management | 4,400 | 17.6% |
-| Clerical | 3,900 | 15.6% |
-| Manual | 2,900 | 11.6% |
-
-Professional and Skilled Manual together account for **55.2%** of
-all transactions confirming that active working-age to mature
-professionals represent the core market for Adventure Works.
-
-**Orders by Income Level:**
-86.9% of all transactions totaling 73,041 items sold came from
-the Average and **Low Income segments**. This confirms that while
-Adventure Works carries premium products (Bikes), the majority of
-its **customers are middle-to-low income buyers** who tend to purchase
-more affordable Accessories products.
-
-**Top Customer:**
-Mr. Maurice Shan (age 75, Professional, Average Income) generated
-the highest revenue at $12,408 across 6 transactions averaging
-$2,068 per transaction, approximately **1.45x above** the overall
-customer average of $1,431. This demonstrates that the senior
-Professional segment holds strong spending potential despite not
-having the highest transaction frequency.
+**Store Performance**
+Of 24 stores, 13 exceed the average revenue of $73,522.8 while
+11 fall below it with Store 5 severely underperforming at $4.9K.
+The 34.8x revenue gap between the highest store ($170.3K) and
+lowest store ($4.9K) indicates structural performance variance
+that requires standardization. Deluxe Supermarket format
+consistently outperforms all other store types, generating the
+highest revenue per sqft — making it the highest-priority format
+for future expansion.
 
 ---
 
 ## 8. Conclusions
 
-### Revenue & Growth
-Adventure Works recorded strong and consistent revenue growth
-throughout January 2020 – June 2022. Total revenue grew from $5.4M
-(2020) to $9.7M (2021), and the first half of 2022 alone already
-reached $9.2M indicating that full year 2022 could **potentially
-exceed $18M** if the trend continues. This growth was primarily driven
-by the expansion of the Accessories product line and the steady
-performance of Bikes as the most profitable category.
-
-### Product Profitability
-The most significant finding from this analysis is the profitability
-gap between Bikes and Accessories. Despite Accessories leading in
-volume with 16,983 orders, Bikes generated $2.9M in profit
-25x more than Accessories ($112.8K). This confirms that sales volume
-alone is not a reliable indicator of business health — margin and
-product mix are far more deterministic.
-
-### Product Returns
-The overall return rate of 2.17% remains within acceptable limits.
-However, distribution is uneven: Pacific records the highest return
-rate (2.25%) particularly for Vests, while Shorts is the most
-returned product type across Europe and North America. Water Bottle -
-30 oz., despite being the top-selling product across all continents,
-also records the highest absolute returns within Accessories this
-warrants ongoing monitoring.
-
-### Customer Profile
-Adventure Works core market consists of **middle-to-low income**,
-**mature-aged customers** (average age 64), predominantly from the
-**Professional and Skilled Manual occupation** segments, which together
-contribute 55.2% of total transactions. The fact that 86.9% of
-transactions come from Average and Low Income segments indicates
-that Adventure Works has successfully positioned itself as an
-accessible brand though this also reveals **limited penetration**
-into higher-spending segments.
-
-### Market Distribution
-Water Bottle - 30 oz. is the only product that consistently ranks
-as the top seller across all three continents signaling reliable
-universal demand. Beyond this product, continental preferences
-diverge considerably, suggesting that a one-size-fits-all approach
-to inventory and promotions is suboptimal.
+Maven Market demonstrated solid business performance across
+1997–1998, generating $1.8M in revenue at a 59.67% average
+margin and a near-zero return rate of 0.99%. The top brand
+Hermanos leads at $56.7K with a tightly competitive mid-tier
+group, though a cluster of slow-moving brands at 7 days on
+shelf signals inventory efficiency gaps. The customer base of
+10,281 is well-diversified across age, gender, and occupation,
+with the Professional segment driving 31.9% of revenue and the
+40–49 age group peaking at $271.6K. However, 90.4% Standard
+priority dominance reveals an underdeveloped loyalty program,
+and the top customer generating only $2.2K highlights a broadly
+distributed — rather than VIP-concentrated — revenue structure.
+Store performance varies dramatically with a 34.8x gap between
+the best and worst locations, and the Deluxe Supermarket format
+consistently delivers the highest revenue per sqft — pointing
+to a clear expansion priority for future growth.
 
 ---
 
