@@ -7,6 +7,7 @@
 This time I'll be working with data from Maven Market, a multi-national grocery chain with locations in Canada, Mexico and the United States.
 
 I worked through the entire business intelligence workflow: connecting and shaping the data, building a relational model, adding calculated fields, and designing an interactive report.
+
 ---
 
 ## Table of Content
@@ -57,35 +58,41 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 | Stores Lookup | Stores type, address, and area |
 | Regions Lookup | Sales region and continent |
 | Calendar Lookup | Date dimension table |
-| Product Brand Lookup | Brand Avg in shelf, performance zone, and margin brand |
+| Product Brand Lookup | Brand average in shelf, performance zone, and margin brand |
 
 ---
 
 ## 4. **Data Transformation**  
 Data was **cleaned** and transformed using Power Query (M Language):
-- Removed duplicate and null rows from all Data
-  - ![](Assets/removing_error.png)
+- Standardized tables name
+  - ![](assets/change_name.png)
+- Appending transaction table
+  - ![](appending_tables.png)
+- Removing duplicate, null, or error rows from all Data
+  - ![](assets/checking_error_column.png)
+- Replacing values
+  - ![](assets/replace_value.png)
 - Standardized date formats across all tables and creating column for every date element
-  - ![](Assets/change_localdate.png)
-  - ![](Assets/creating_columndate.png)
-- Created calculated column
-  - ![](Assets/created_calculatedcolumn.png)
-- Filtered irrelevant columns to reduce model size and improve performance
+  - ![](Assets/change_format_column.png)
+- Creating calculated column
+  - ![](assets/adding_new_column2.png)
+  - ![](assets/adding_new_column.png)
+- Filtering irrelevant columns to reduce model size and improve performance
   - ![](Assets/remove_irrelevantcolumn.png)
-- Custom Calculation (DAX Measure)
-  - Page 1: **Executive Dashboard**
-    - ![](Assets/DAX_executive.png)
+- Defining key column
+  - ![](assets/define_keycolumn.png)
+- Customing Calculation (DAX Measure)
+  - Data Analysis Expression that used in this project
+    - ![](assets/dax.png)
+
       ---
-  - Page 2: **Product Detail Dashboard**
-    - ![](Assets/DAX_product.png)
-      ---
-  - Page 3: **Customer Detail Dashboard**
-    - ![](Assets/DAX_customer.png)
+  - Additional DAX for the highlight revenue trending
+    - ![](assets/dax_highlight_revenue_trending.png)
 
 ---
 
 ## 5. **Data Modeling**
-![](Assets/table_relationship.png)
+![](assets/data_modelling.png)
 - **Fact Table**: Sales Data (transactions), Return Data (transaction)
 - **Dimension Tables**: Customer, Product, Territory, Calendar, Category Product, and Subcategory Product
 - All relationships are **single-direction** (one-to-many)
