@@ -65,29 +65,27 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 ## 4. **Data Transformation**  
 Data was **cleaned** and transformed using Power Query (M Language):
 - Standardized tables name
-  - ![](assets/change_name.png)
+  - ![](asset/change_name.png)
 - Appending transaction table
-  - ![](appending_tables.png)
+  - ![](asset/appending_tables.png)
 - Removing duplicate, null, or error rows from all Data
-  - ![](assets/checking_error_column.png)
+  - ![](asset/checking_error_column.png)
 - Replacing values
-  - ![](assets/replace_value.png)
+  - ![](asset/replace_value.png)
 - Standardized date formats across all tables and creating column for every date element
-  - ![](Assets/change_format_column.png)
+  - ![](asset/change_format_column.png)
 - Creating calculated column
-  - ![](assets/adding_new_column2.png)
-  - ![](assets/adding_new_column.png)
-- Filtering irrelevant columns to reduce model size and improve performance
-  - ![](Assets/remove_irrelevantcolumn.png)
+  - ![](asset/adding_new_column2.png)
+  - ![](asset/adding_new_column.png)
 - Defining key column
-  - ![](assets/define_keycolumn.png)
-- Customing Calculation (DAX Measure)
+  - ![](asset/define_keycolumn.png)
+- Customing calculation (DAX Measure)
   - Data Analysis Expression that used in this project
-    - ![](assets/dax.png)
+    - ![](asset/dax.png)
 
       ---
   - Additional DAX for the highlight revenue trending
-    - ![](assets/dax_highlight_revenue_trending.png)
+    - ![](asset/dax_highlight_revenue_trending.png)
 
 ---
 
