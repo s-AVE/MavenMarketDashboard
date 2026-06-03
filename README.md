@@ -34,25 +34,14 @@ I worked through the entire business intelligence workflow: connecting and shapi
 **Challenge Key Questions to Explore**
 
 1. How do total revenue, profit, and order volume trend over time across the 2020–2022 period?
-2. Which product categories and individual products drive the most orders, revenue, and profit?
-3. How is monthly revenue and return rate trending and are there seasonal patterns to be aware of?
-4. How many unique customers does Adventure Works have, and what is the average revenue per customer?
-5. Which occupation and income segments contribute the most orders and transactions?
-6. Who are the top revenue-generating customers and what do their demographic profiles look like?
-7. How is each product performing against its monthly orders, revenue, and profit targets?
-8. Which products have the highest return rates, and are they above or below the company average?
-9. How does return rate differ across continents Europe, North America, and Pacific?
 
 ---
 
 ## 2. **Skills Demonstrated**
 - **Data Transformation**  
-  - **Power Query** — Using Power Query to clean, transform, and shape raw data into an analysis-ready format, ensuring accuracy and consistency.
-  - **DAX** — custom measures for KPIs, dynamic labels, conditional logic, and time intelligence (DATEADD, DATESMTD)
 - **Data Modeling** — star schema design with fact and dimension tables
 - **Data Visualization** — KPI cards, gauge charts, line charts, donut charts, and matrix tables
-- **Conditional Formatting** — dynamic colors based on performance vs target
-- **UX Design** — consistent color theme, layout hierarchy, and slicer interactions
+- **Data Analysis** — discover actionable insights, support critical decision-making, and validate hypotheses
 
 ---
 
@@ -61,14 +50,14 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 
 | Table | Description |
 |---|---|
-| Sales Data | Transaction-level fact table |
-| Return Data | Return transaction-level fact table |
+| Transaction | Transaction-level fact table |
+| Return | Return transaction-level fact table |
 | Customer Lookup | Customer demographics and attributes |
 | Product Lookup | Product names, categories, and pricing |
-| Product Categories | Product category hierarchy |
-| Product Subcategories | Product subcategory hierarchy |
-| Territory Lookup | Sales region and continent |
+| Stores Lookup | Stores type, address, and area |
+| Regions Lookup | Sales region and continent |
 | Calendar Lookup | Date dimension table |
+| Product Brand Lookup | Brand Avg in shelf, performance zone, and margin brand |
 
 ---
 
