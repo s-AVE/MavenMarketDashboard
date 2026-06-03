@@ -90,7 +90,7 @@ Data was **cleaned** and transformed using Power Query (M Language):
 ---
 
 ## 5. **Data Modeling**
-![](assets/data_modelling.png)
+![](asset/data_modelling.png)
 - **Fact Table**: Sales Data (transactions), Return Data (transaction)
 - **Dimension Tables**: Customer, Product, Territory, Calendar, Category Product, and Subcategory Product
 - All relationships are **single-direction** (one-to-many)
