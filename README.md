@@ -167,7 +167,7 @@ specific quality or expectation issues requiring immediate review.
 
 ---
 
-### Customer & Store Detail
+### C. Customer & Store Detail
 
 **Customer Base**
 Maven Market serves 10,281 unique customers with an average age
@@ -224,10 +224,10 @@ with the Professional segment driving 31.9% of revenue and the
 40–49 age group peaking at $271.6K. However, 90.4% Standard
 priority dominance reveals an underdeveloped loyalty program,
 and the top customer generating only $2.2K highlights a broadly
-distributed — rather than VIP-concentrated — revenue structure.
+distributed rather than VIP-concentrated revenue structure.
 Store performance varies dramatically with a 34.8x gap between
 the best and worst locations, and the Deluxe Supermarket format
-consistently delivers the highest revenue per sqft — pointing
+consistently delivers the highest revenue per sqft pointing
 to a clear expansion priority for future growth.
 
 ---
@@ -261,80 +261,18 @@ deliver better results than a unified global approach:
 
 ---
 
-### 3) Quality Control for High-Return Products
-Shorts (highest return type in Europe & North America) and Vests
-(highest return type in Pacific) should be prioritized for **quality
-review**. Recommended steps:
-- Improve size guides on product pages to reduce fit related returns.
-- Add customer review sections to help prospective buyers set
-  accurate expectations.
-- Conduct pre-shipment quality sampling for continents with the
-  highest return rates, particularly Pacific (2.25%).
-
----
-
-### 4) Sustain Water Bottle Momentum
-Water Bottle - 30 oz. is the most universally demanded product and
-recorded 2x growth in the first half of 2022. Despite having the
-highest absolute returns in Accessories, its return rate remains
-within acceptable bounds. This product serves as a critical
-traffic driver across all markets.
-
-**Action:** Position Water Bottle as the anchor product in
-cross-continent marketing campaigns, and consider **bundling it**
-with complementary Accessories to increase average order value.
-
----
-
-### 5) Retention Strategy for the Professional Segment
-The Professional segment contributes 31.6% of all transactions and
-demonstrates higher spending per transaction as evidenced by
-top customer Mr. Maurice Shan at $2,068 per transaction versus the
-$1,431 customer average. This segment is the most valuable to retain.
 
 **Action:**
-- Implement a loyalty program targeting repeat buyers.
-- Offer early access to new products for top-spending customers.
-- Introduce membership tiers based on cumulative spending to
-  incentivize higher transaction frequency.
 
----
-
-### 6) Address November Seasonality
-The sharp drop in bike transactions during November 2021 (only 191
-transactions) suggests a recurring seasonal pattern toward year-end.
-If this repeats annually, management should proactively prepare by:
-- Running end-of-year promotions specifically for the Bikes category
-  to counteract the seasonal slowdown.
-- Shifting marketing focus to Accessories and Clothing during
-  low-season months to maintain revenue stability.
-
----
-
-### 7) Expand into Higher Income Segments
-With 86.9% of customers coming from Average and Low Income brackets,
-Adventure Works has significant headroom to grow its presence among
-High and Very High Income segments (currently only 13.1%) who
-carry higher revenue-per-transaction potential.
-
-**Action:**
-- Strengthen the premium product lineup (high-end Bikes and Clothing)
-- Develop more aspirational marketing communication targeting
-  higher income demographics
-- Explore partnerships with premium cycling communities in
-  Europe and North America to build brand presence in
-  higher-spending segments
 
 ---
 
 ### Repository Contents
  - Power BI Dashboard File: The main PBIX File containing the analysis and visualizations.
- - Data Sources: [Raw Dataset](AdventureWorks-Raw-Data) used in the project.
- - Screenshots/Reports: [Exported visualizations](Assets) for sharing insights.
+ - Data Sources: [Raw Dataset](raw_data) used in the project.
+ - Screenshots/Reports: [Exported visualizations](asset) for sharing insights.
  - README.md: Project documentation (this file)
 
 ---
-### Certification
-![](Power_BI_Certification.jpg)
 
-_Source of Curriculum and Dataset: Maven Analytics_
+_Source of Dataset: Maven Analytics_
