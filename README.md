@@ -102,7 +102,7 @@ date slicer (for slicer in highlight revenue trending), target parameter and tre
 ---
 
 ## 6. **Data Visualization**  
-![](asset/dashboard.png)
+![](asset/0dashboard.png)
 The dashboard consists of 3 report pages:
 - **Executive Summary**
   ---
