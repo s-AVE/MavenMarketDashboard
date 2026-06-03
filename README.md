@@ -196,7 +196,7 @@ $533.2K, High School Degree: $521.7K) drive the most revenue,
 reflecting Maven Market's working-class community positioning.
 On the occupation side, Professional customers dominate at $574.0K
 (31.9% of total), while Clerical at $30.6K is significantly
-underrepresented — pointing to either a pricing or accessibility
+underrepresented pointing to either a pricing or accessibility
 gap for this segment.
 
 **Store Performance**
@@ -206,7 +206,7 @@ The 34.8x revenue gap between the highest store ($170.3K) and
 lowest store ($4.9K) indicates structural performance variance
 that requires standardization. Deluxe Supermarket format
 consistently outperforms all other store types, generating the
-highest revenue per sqft — making it the highest-priority format
+highest revenue per sqft making it the highest-priority format
 for future expansion.
 
 ---
@@ -216,7 +216,7 @@ for future expansion.
 Maven Market demonstrated solid business performance across
 1997–1998, generating $1.8M in revenue at a 59.67% average
 margin and a near-zero return rate of 0.99%. The top brand
-Hermanos leads at $56.7K with a tightly competitive mid-tier
+Hermanos leads at $56.7K with a tightly competitive mid tier
 group, though a cluster of slow-moving brands at 7 days on
 shelf signals inventory efficiency gaps. The customer base of
 10,281 is well-diversified across age, gender, and occupation,
