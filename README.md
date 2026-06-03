@@ -79,11 +79,11 @@ Data was **cleaned** and transformed using Power Query (M Language):
   - ![](asset/adding_new_column.png)
 - Defining key column
   - ![](asset/define_keycolumn.png)
+    --- 
 - Customing calculation (DAX Measure)
   - Data Analysis Expression that used in this project
     - ![](asset/dax.png)
 
-      ---
   - Additional DAX for the highlight revenue trending
     - ![](asset/dax_highlight_revenue_trending.png)
 
@@ -96,21 +96,23 @@ Data was **cleaned** and transformed using Power Query (M Language):
 - All relationships are **single-direction** (one-to-many)
 - A dedicated **measure table** (`Measures`) stores all DAX calculations separately from raw data tables
 - No bi-directional relationships to maintain query performance
+- Unrelated table: there are measure table (for grouping DAX calculation), transaction 1997 & 1998 (unused table, use only for appending table, 
+date slicer (for slicer in highlight revenue trending), target parameter and trendline selection (use for brand positioning in product performance)
 
 ---
 
 ## 6. **Data Visualization**  
-![](Assets/dashboard.png)
+![](asset/dashboard.png)
 The dashboard consists of 3 report pages:
 - **Executive Summary**
   ---
-  - ![](Assets/dashboard_executive.jpg)
-- **Product Detail**
+  - ![](asset/1executive_summary.jpg)
+- **Product Performance**
   ---
-  - ![](Assets/dashboard_product_detail.jpg)
-- **Customer Detail**
+  - ![](asset/2product_performance.jpg)
+- **Customer & Store Detail**
   ---
-  - ![](Assets/dashboard_cutomer_detail.jpg)
+  - ![](assets/3custnstore_detail.jpg)
 
 ---
 
