@@ -279,7 +279,7 @@ Central West generates only $9.3K and is effectively non-operational.
 ---
 
 ### Repository Contents
- - Power BI Dashboard File: The main PBIX File containing the analysis and visualizations.
+ - Power BI Dashboard File: The main PBIX File [Maven Market](Maven_Market) containing the analysis and visualizations.
  - Data Sources: [Raw Dataset](raw_data) used in the project.
  - Screenshots/Reports: [Exported visualizations](asset) for sharing insights.
  - README.md: Project documentation (this file)
