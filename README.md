@@ -4,10 +4,10 @@
 
 
 ## Introduction
-This time I'll be working with data from Maven Market, a multi-national grocery chain with locations in Canada, Mexico and the United States.
+Maven Market operates 24 grocery stores across North America and Mexico, serving over 10,000 customers with a catalog of 111 product brands. Maven Market operated across 24 stores serving 10,281 unique customers throughout the 1997–1998 period. 
 
-I worked through the entire business intelligence workflow: connecting and shaping the data, building a relational model, adding calculated fields, and designing an interactive report.
-
+This analysis covers three dimensions of business performance overall sales health, product portfolio efficiency, and customer and store behavior 
+drawing from the Executive Summary, Product Performance, and Customer & Store Detail dashboards.
 
 > [!IMPORTANT]
 **Data Cutoff:**
@@ -36,18 +36,24 @@ Data ends on **December 31st, 1998**
 
 ---
 ## 1. Problem Statement
+As the business completes its second year of operations, management needs clarity on three core questions:
 
-**Challenge Key Questions to Explore**
-
-1. How do total revenue, profit, and order volume trend over time across the 2020–2022 period?
-
+1. Is Maven Market financially healthy and sustainable in terms of profitability and returns?
+2. Is revenue growth consistent or dependent on specific periods?
+3. Is revenue and profitability concentrated in a small set of brands or evenly distributed?
+4. Is the product portfolio aligned with modern consumer preferences?
+5. Is revenue geographically balanced or overly concentrated?
+6. Do store formats perform consistently across the portfolio?
+7. Is the loyalty program effective in driving premium customer conversion?
+8. Which store formats should be prioritized for expansion?
+   
 ---
 
 ## 2. **Skills Demonstrated**
-- **Data Transformation**  
-- **Data Modeling** — star schema design with fact and dimension tables
-- **Data Visualization** — KPI cards, gauge charts, line charts, donut charts, and matrix tables
-- **Data Analysis** — discover actionable insights, support critical decision-making, and validate hypotheses
+- **Data Transformation** - converting raw, unstructured data from multiple sources into a clean, standardized format
+- **Data Modeling** - star schema design with fact and dimension tables
+- **Data Visualization** - creating KPI cards, gauge charts, line charts, donut charts, and matrix tables
+- **Data Analysis** - discover actionable insights, support critical decision-making, and validate hypotheses
 
 ---
 
@@ -125,110 +131,61 @@ The dashboard consists of 3 report pages:
 
 ### A. Business Performance
 
-Maven Market recorded 1,560 total orders generating $1.8M in total revenue and $1.05M in total profit representing an impressive profit margin of 58.3% at the overall business level. The return rate of 0.99% confirms strong product quality consistency across the entire catalog.
-The overall profit of $1.05M on $1.8M revenue means Maven Market retains $0.58 of every $1.00 sold an exceptionally healthy profitability ratio for a grocery retail operation.
-The return rate of 0.99% is below 1% a strong quality indicator suggesting that less than 1 in 100 items purchased is returned across the entire business
+Maven Market recorded 1,560 total orders generating $1.8M in total revenue and $1.05M in total profit, representing a profit 
+margin of 58.3% an exceptionally healthy profitability ratio for a grocery retail operation. 
+
+The business retains $0.58 of every $1.00 sold, confirming strong pricing power and cost discipline across the portfolio. 
+A return rate of 0.99% below the 1% threshold further validates product quality consistency, 
+indicating that less than 1 in 100 items purchased is returned across the entire catalog.
 
 ---
 
 ### B. Product Performance
 
 **Revenue & Brand**
-Maven Market generated $1.8M in total revenue across 1,560 orders
-with Hermanos leading at $56.7K, followed closely by Tell Tale
-($51.6K) and Ebony ($49.7K). The top 10 brands cluster tightly
-between $40K–$57K, indicating a competitive mid-tier with no
-single dominant outlier.
-
-**Profitability**
-The business maintains a strong average margin of 59.67% with a
-healthy return rate of 0.99% both well within acceptable ranges.
-Brand positioning analysis reveals that the majority of high revenue
-brands also sit above the margin threshold, confirming that volume
-and profitability are largely aligned for the top performers.
-
-**Inventory**
-Products sell at an average of 4 days on shelf. However, a cluster
-of brands averages 7 days 75% slower than the portfolio average
-indicating slow movers that require promotion intervention or
-discontinuation review.
-
-**Sustainability & Health**
-64.62% of products are low fat, reflecting a health-conscious
-assortment. However, 55.96% of products are non-recyclable
-a sustainability gap that may become a competitive disadvantage
-as consumer preferences shift toward eco-friendly options.
-
-**Returns**
-The top 3 returned products Hermanos Red Pepper (2.83%),
-Shady Lake Spaghetti (2.93%), and Walrus Merlot Wine (2.79%)
-all exceed the portfolio average by nearly 3x, signaling product
-specific quality or expectation issues requiring immediate review.
+Hermanos leads all brands at $56.7K in revenue, with the top 10 brands clustering tightly between $40K and $57K a 
+competitive mid-tier with no single dominant outlier. The average margin of 59.67% is consistent across all top brands,
+confirming volume and profitability are aligned. However, a cluster of slow-moving brands averages 7 days on shelf 75%
+slower than the 4-day portfolio average and the top 3 returned products all exceed the portfolio return rate by 3x.
 
 ---
 
-### C. Customer & Store Detail
+### C. Store Performance
 
-**Customer Base**
-Maven Market serves 10,281 unique customers with an average age
-of 54 years. Revenue is well-distributed across all age groups,
-with the 40–49 segment peaking at $271.6K and the 80–89 segment
-still contributing $242.2K confirming strong cross-generational
-appeal with only a 10.8% decline from peak to oldest bracket.
+North West dominates at $847.8K - 48% of total revenue creating a significant concentration risk. Mexico collectively
+contributes $479K across three regions, making it the second largest market but without a unified strategy. Central West
+at $9.3K is effectively non-operational. Deluxe Supermarket consistently delivers the highest revenue per store, while 
+Small Grocery contributes only 1.9% of total revenue.
 
-**Gender & Priority**
-Revenue is near-equally split between female ($891.7K) and male
-($872.8K) customers a healthy diversification. However, 90.4%
-of revenue comes from Standard-priority customers, indicating that
-Maven Market's loyalty program has not yet successfully converted
-its mass customer base into higher-value priority members.
+### D. Customer Profile
 
-**Top Customer**
-Mr. Ida Rodriguez (age 57, Skilled Manual) is the top revenue
-customer at $2.2K from 270 orders averaging only $8.15 per
-transaction. This high-frequency, low-basket pattern suggests
-Maven Market lacks high-ticket individual buyers, with revenue
-broadly distributed rather than concentrated in VIP customers.
+Maven Market serves 10,281 customers with an average age of 54 years. Revenue is evenly distributed across all age groups
+and near-equally split by gender confirming broad demographic appeal (peak segment 40-49 years old). However, 90.4% of revenue comes from Standard-priority
+customers, revealing a critical loyalty program gap. The top customer generates only $2.2K from 270 orders at $8.15 per
+transaction a high-frequency, low-basket profile that reflects a broadly distributed rather than premium-driven
+revenue structure.
 
-**Education & Occupation**
-Customers with lower formal education (Partial High School:
-$533.2K, High School Degree: $521.7K) drive the most revenue,
-reflecting Maven Market's working-class community positioning.
-On the occupation side, Professional customers dominate at $574.0K
-(31.9% of total), while Clerical at $30.6K is significantly
-underrepresented pointing to either a pricing or accessibility
-gap for this segment.
-
-**Store Performance**
-Of 24 stores, 13 exceed the average revenue of $73,522.8 while
-11 fall below it with Store 5 severely underperforming at $4.9K.
-The 34.8x revenue gap between the highest store ($170.3K) and
-lowest store ($4.9K) indicates structural performance variance
-that requires standardization. Deluxe Supermarket format
-consistently outperforms all other store types, generating the
-highest revenue per sqft making it the highest-priority format
-for future expansion.
 
 ---
 
 ## 8. Conclusions
 
-Maven Market demonstrated solid business performance across
-1997–1998, generating $1.8M in revenue at a 59.67% average
-margin and a near-zero return rate of 0.99%. The top brand
-Hermanos leads at $56.7K with a tightly competitive mid tier
-group, though a cluster of slow-moving brands at 7 days on
-shelf signals inventory efficiency gaps. The customer base of
-10,281 is well-diversified across age, gender, and occupation,
-with the Professional segment driving 31.9% of revenue and the
-40–49 age group peaking at $271.6K. However, 90.4% Standard
-priority dominance reveals an underdeveloped loyalty program,
-and the top customer generating only $2.2K highlights a broadly
-distributed rather than VIP-concentrated revenue structure.
-Store performance varies dramatically with a 34.8x gap between
-the best and worst locations, and the Deluxe Supermarket format
-consistently delivers the highest revenue per sqft pointing
-to a clear expansion priority for future growth.
+Maven Market is a profitable and growing business with strong fundamentals 58.3% profit margin, sub-1% return rate, and
+110% revenue growth year-over-year. However, three structural challenges require attention to sustain this momentum:
+
+**1. Geographic concentration**
+48% of revenue depends on North West alone. Expanding Mexico as a unified market and activating underperforming regions
+like Canada West will reduce risk and unlock new growth.
+
+**2. Loyalty program underutilization**
+With 90.4% of customers on Standard priority and a top customer averaging only $8.15 per transaction, Maven Market is leaving
+premium revenue on the table. A tiered loyalty program targeting frequent buyers for upgrade to Priority or Golden membership
+could materially increase average basket size.
+
+**3. Product & store portfolio optimization**
+Slow-moving brands at 7 days on shelf, Small Grocery stores contributing only 1.9% of revenue, and Store 5 at $4.9K all
+represent drag on overall performance. Discontinuing underperforming products, converting Small Grocery locations
+to Deluxe Supermarket format, and addressing the 34.8x store revenue gap would meaningfully improve portfolio efficiency.
 
 ---
 
