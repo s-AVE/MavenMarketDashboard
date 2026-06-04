@@ -4,7 +4,7 @@
 
 
 ## Introduction
-Maven Market operates 24 grocery stores across North America and Mexico, serving over 10,000 customers with a catalog of 111 product brands. Maven Market operated across 24 stores serving 10,281 unique customers throughout the 1997–1998 period. 
+Maven Market operates 24 grocery stores across Canada, United States, and Mexico, serving over 10,000 customers with a catalog of 111 product brands. Maven Market operated across 24 stores serving 10,281 unique customers throughout the 1997–1998 period. 
 
 This analysis covers three dimensions of business performance overall sales health, product portfolio efficiency, and customer and store behavior 
 drawing from the Executive Summary, Product Performance, and Customer & Store Detail dashboards.
