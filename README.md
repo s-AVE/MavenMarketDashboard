@@ -161,14 +161,17 @@ However, 90.4% of revenue comes from Standard priority customers, revealing a cr
 Maven Market demonstrates strong business fundamentals with 58.3% profit margin, sub-1% return rate, and 110% YoY revenue growth. The business has a well-diversified customer base, consistent product margins, and a clear top-performing store format in Deluxe Supermarket. However, three structural challenges directly threaten the sustainability of this growth and must be addressed:
 
 **1. Geographic concentration risk**
+
 With 48% of revenue dependent on North West alone, the business is structurally vulnerable to regional disruption. Mexico the second-largest market at $479K combined is fragmented across three regions without a unified strategy, limiting its growth potential. Central West at $9.3K and Canada West at $107.7K represent further underperformance that reduces overall portfolio resilience.
 
 **2. Loyalty program underutilization**
+
 90.4% of customers remain on Standard priority with an average transaction value of only $8.15. This indicates that Maven Market's existing loyalty structure is not successfully
 converting frequent buyers into higher-value members leaving significant premium revenue unrealized. The gap between Priority customers (9.6%) and Standard customers (90.4%)
 confirms that the current program lacks sufficient incentive for tier upgrading.
 
 **3. Product and store portfolio drag**
+
 Slow-moving brands at 7 days on shelf, top returned products exceeding portfolio rate by 3x, Small Grocery at only 1.9% of revenue, and Store 5 at $4.9K all represent inefficiencies that compress overall performance. The 34.8x revenue gap between the best and worst store signals structural variance that goes beyond normal store-to-store variation pointing to systemic issues in underperforming locations.
 
 ---
