@@ -131,129 +131,117 @@ The dashboard consists of 3 report pages:
 
 ### A. Business Performance
 
-Maven Market recorded 1,560 total orders generating $1.8M in total revenue and $1.05M in total profit, representing a profit 
-margin of 58.3% an exceptionally healthy profitability ratio for a grocery retail operation. 
-
-The business retains $0.58 of every $1.00 sold, confirming strong pricing power and cost discipline across the portfolio. 
-A return rate of 0.99% below the 1% threshold further validates product quality consistency, 
-indicating that less than 1 in 100 items purchased is returned across the entire catalog.
+Maven Market recorded 1,560 total orders generating $1.8M in total revenue and $1.05M in total profit, representing a profit margin of 58.3% an exceptionally healthy profitability ratio for a grocery retail operation. The business retains $0.58 of every $1.00 sold, confirming strong pricing power and cost discipline across the portfolio. A return rate of 0.99% below the 1% threshold further validates product quality consistency, indicating that less than 1 in 100 items purchased is returned across the entire catalog. Revenue grew approximately 110% year-over-year, with December 1998 peaking at $120.16K driven by seasonal demand while October 1997 recorded the lowest point at $42.34K.
 
 ### B. Product Performance
 
-**Revenue & Brand**
-Hermanos leads all brands at $56.7K in revenue, with the top 10 brands clustering tightly between $40K and $57K a 
-competitive mid-tier with no single dominant outlier. The average margin of 59.67% is consistent across all top brands,
-confirming volume and profitability are aligned. However, a cluster of slow-moving brands averages 7 days on shelf 75%
-slower than the 4-day portfolio average and the top 3 returned products all exceed the portfolio return rate by 3x.
+Hermanos leads all brands at $56.7K in revenue, with the top 10 brands clustering tightly between $40K and $57K a competitive mid-tier with no single dominant outlier. The average margin of 59.67% is consistent across all top brands, confirming that volume and profitability are aligned for the strongest performers. Brand positioning analysis confirms that Zone 1 brands (High Revenue + High Margin) dominate the top performers, while Zone 4 brands (Low Revenue + Low Margin) represent a drag on portfolio efficiency.
 
-### C. Store Performance
+However, a cluster of slow-moving brands averages 7 days on shelf 75% slower than the 4-day portfolio average tying up inventory capital without proportional return. The top 3 returned products Hermanos Red Pepper (2.83%), Shady Lake Spaghetti (2.93%), and Walrus Merlot Wine (2.79%) all exceed the portfolio return rate of 0.99% by nearly 3x, signaling
+product-specific quality issues. Additionally, 55.96% of products remain non-recyclable, presenting a sustainability gap as consumer preferences increasingly favor eco-friendly
+options.
 
-North West dominates at $847.8K - 48% of total revenue creating a significant concentration risk. Mexico collectively
-contributes $479K across three regions, making it the second largest market but without a unified strategy. Central West
-at $9.3K is effectively non-operational. Deluxe Supermarket consistently delivers the highest revenue per store, while 
-Small Grocery contributes only 1.9% of total revenue.
+### C. Store & Regional Performance
+
+North West dominates at $847.8K - 48% of total revenue creating a significant geographic concentration risk. Mexico collectively contributes $479K across three separate regions
+(Mexico Central $330.4K, Mexico South $87.3K, Mexico West $61.3K), making it the second-largest market at 27.1% of revenue but operating without a unified strategy. Canada West underperforms at $107.7K relative to its market potential, and Central West at $9.3K is effectively non-operational.
+
+Of 24 stores, 13 exceed the average revenue of $73,522.8 while 11 fall below it. Store 5 is severely underperforming at $4.9K a 34.8x gap compared to the top store at $170.4K. Deluxe Supermarket consistently delivers the highest revenue per store and per sqft, while Small Grocery contributes only 1.9% of total revenue ($34K) the lowest of all store formats.
 
 ### D. Customer Profile
 
-Maven Market serves 10,281 customers with an average age of 54 years. Revenue is evenly distributed across all age groups
-and near-equally split by gender confirming broad demographic appeal (peak segment 40-49 years old). However, 90.4% of revenue comes from Standard-priority
-customers, revealing a critical loyalty program gap. The top customer generates only $2.2K from 270 orders at $8.15 per
-transaction a high-frequency, low-basket profile that reflects a broadly distributed rather than premium-driven
-revenue structure.
+Maven Market serves 10,281 customers with an average age of 54 years. Revenue is evenly distributed across all age groups peaking at the 40–49 segment ($271.6K) with only a 10.8% decline to the 80–89 segment ($242.2K) confirming strong cross-generational appeal. Gender split is near-equal: female $891.7K vs male $872.8K a healthy diversification with no concerning skew.
 
+However, 90.4% of revenue comes from Standard priority customers, revealing a critical loyalty program gap. The top individual customer, Mr. Ida Rodriguez, generates $2.2K from 270 orders at an average of $8.15 per transaction a high frequency, low-basket pattern that reflects a broadly distributed rather than premium-driven revenue structure. On the occupation side, Professional customers dominate at $574.0K (31.9% of revenue), while Clerical at $30.6K is significantly underrepresented pointing to a pricing or accessibility gap for lower-income segments.
 
 ---
 
 ## 8. Conclusions
 
-Maven Market is a profitable and growing business with strong fundamentals 58.3% profit margin, sub-1% return rate, and
-110% revenue growth year-over-year. However, three structural challenges require attention to sustain this momentum:
+Maven Market demonstrates strong business fundamentals with 58.3% profit margin, sub-1% return rate, and 110% YoY revenue growth. The business has a well-diversified customer base, consistent product margins, and a clear top-performing store format in Deluxe Supermarket. However, three structural challenges directly threaten the sustainability of this growth and must be addressed:
 
-**1. Geographic concentration**
-48% of revenue depends on North West alone. Expanding Mexico as a unified market and activating underperforming regions
-like Canada West will reduce risk and unlock new growth.
+**1. Geographic concentration risk**
+With 48% of revenue dependent on North West alone, the business is structurally vulnerable to regional disruption. Mexico the second-largest market at $479K combined is fragmented across three regions without a unified strategy, limiting its growth potential. Central West at $9.3K and Canada West at $107.7K represent further underperformance that reduces overall portfolio resilience.
 
 **2. Loyalty program underutilization**
-With 90.4% of customers on Standard priority and a top customer averaging only $8.15 per transaction, Maven Market is leaving
-premium revenue on the table. A tiered loyalty program targeting frequent buyers for upgrade to Priority or Golden membership
-could materially increase average basket size.
+90.4% of customers remain on Standard priority with an average transaction value of only $8.15. This indicates that Maven Market's existing loyalty structure is not successfully
+converting frequent buyers into higher-value members leaving significant premium revenue unrealized. The gap between Priority customers (9.6%) and Standard customers (90.4%)
+confirms that the current program lacks sufficient incentive for tier upgrading.
 
-**3. Product & store portfolio optimization**
-Slow-moving brands at 7 days on shelf, Small Grocery stores contributing only 1.9% of revenue, and Store 5 at $4.9K all
-represent drag on overall performance. Discontinuing underperforming products, converting Small Grocery locations
-to Deluxe Supermarket format, and addressing the 34.8x store revenue gap would meaningfully improve portfolio efficiency.
+**3. Product and store portfolio drag**
+Slow-moving brands at 7 days on shelf, top returned products exceeding portfolio rate by 3x, Small Grocery at only 1.9% of revenue, and Store 5 at $4.9K all represent inefficiencies that compress overall performance. The 34.8x revenue gap between the best and worst store signals structural variance that goes beyond normal store-to-store variation pointing to systemic issues in underperforming locations.
 
 ---
 
 ## 9. Recommendations
 
+The following recommendations directly address the three structural challenges identified in the conclusions, ordered by priority and expected business impact.
+
+---
+
 ### 1) Reduce Geographic Concentration Risk
-**Problem:** North West contributes 48% of total revenue nearly half the business depends on a single region. 
-Central West generates only $9.3K and is effectively non-operational.
+**Problem:** North West contributes 48% of total revenue. Central West at $9.3K is non-operational. Mexico's $479K potential is fragmented across three regions.
 
 **Recommendation:**
-- Develop a **unified Mexico market strategy** combining Mexico Central ($330.4K), Mexico South ($87.3K), and Mexico West ($61.3K) under one regional management
-  structure the combined $479K makes it the second-largest market and warrants dedicated investment
-- Investigate **Canada West underperformance** at $107.7K audit store locations, product mix, and pricing alignment with Canadian consumer preferences
-- Conduct an **immediate review of Central West** determine whether the single store in this region has a viable path to growth or should be reallocated to a stronger market
-- Set a target to reduce North West revenue dependency from 48% to below 35% within 2 years through regional expansion
+- Develop a **unified Mexico market strategy** consolidating Mexico Central ($330.4K), Mexico South ($87.3K), and Mexico West ($61.3K) under one regional structure the combined $479K warrants dedicated management and investment
+- **Investigate Canada West underperformance** at $107.7K audit store locations, product mix, and pricing alignment with local consumer preferences
+- Conduct an **immediate review of Central West** at $9.3K determine whether a viable growth path exists or whether resources should be reallocated to stronger markets
+- Set a target to **reduce North West dependency from 48% to below 35%** within 2 years through regional activation
 
 ---
 
-### 2) Upgrade Loyalty Program — Convert Standard to Priority
-**Problem:** 90.4% of revenue comes from Standard-priority customers. The top individual customer averages only $8.15 per transaction — high frequency but low basket size.
+### 2) Upgrade Loyalty Program Convert Standard to Priority
+**Problem:** 90.4% Standard-priority customers. Top customer averages only $8.15 per transaction despite 270 total orders.
 
 **Recommendation:**
-- Launch a **tiered loyalty upgrade campaign** targeting Standard customers with 50+ orders offer them Bronze or Silver membership with tangible benefits (exclusive discounts, early access to new products, priority checkout)
-- Introduce a **minimum basket incentive** reward customers who exceed a basket threshold (e.g. $15 per transaction) with points or discounts to shift behavior from low-basket frequent visits to higher-value transactions
-- Target **Golden membership conversion** for customers like Mr. Ida Rodriguez who have demonstrated long-term loyalty through 270+ orders personalized outreach with exclusive offers would be highly effective for this segment
-- Benchmark: converting just 10% of Standard customers to Priority tier even at a modest 20% higher spend could add an estimated $32K+ in incremental annual revenue
+- Launch a **tiered loyalty upgrade campaign** targeting Standard customers with 50+ orders offer Bronze or Silver membership with tangible benefits such as exclusive discounts, early product access, and priority checkout
+- Introduce a **minimum basket incentive** reward customers who exceed $15 per transaction with points or discounts to shift behavior from low-basket frequent visits toward higher-value transactions
+- Target **Golden membership conversion** for high-frequency buyers like Mr. Ida Rodriguez (270+ orders) through personalized outreach with exclusive offers
+- Benchmark: converting 10% of Standard customers to Priority at a modest 20% higher spend could generate an estimated **$32K+ in incremental annual revenue**
 
 ---
 
-### 3) Optimize Product Portfolio
-**Problem:** Slow-moving brands average 7 days on shelf (75% slower than average). Top 3 returned products exceed portfolio return rate by 3x. 55.96% of products are non-recyclable.
+### 3) Optimize Product Portfolio Remove Drag, Protect Stars
+**Problem:** Slow movers at 7 days on shelf. Top 3 returned
+products exceed return rate by 3x. 55.96% non-recyclable.
 
 **Recommendation:**
-- **Discontinue or promote slow movers** brands averaging 7+ days on shelf (ADJ, American, Applause, Atomic, BBB Best) should be given a 90-day promotional window before removal. Freeing shelf space for faster-moving brands improves inventory turnover and reduces holding costs
-- **Quality review for top returned products**, Hermanos Red Pepper (2.83%), Shady Lake Spaghetti (2.93%), and Walrus Merlot Wine (2.79%) all require supplier quality audits. For Hermanos specifically, a return rate 3x above portfolio average threatens the equity of the #1 revenue brand
-- **Increase recyclable product mix** from 44.04% toward 55%+ over the next product catalog cycle prioritize Zone 1 (Best) brands that are also recyclable as the ideal product
-  profile for marketing and shelf prioritization
-- **Protect Zone 1 brands** (High Revenue + High Margin) ensure consistent stock availability and prioritize shelf placement for Hermanos, Tell Tale, and Ebony as the core revenue engine
+- **Give slow movers a 90-day promotional window** brands averaging 7+ days on shelf (ADJ, American, Applause, Atomic, BBB Best) should be promoted aggressively before removal. Freed shelf space should be reallocated to Zone 1 brands
+- **Quality audit for top returned products** Hermanos Red Pepper, Shady Lake Spaghetti, and Walrus Merlot Wine allrequire supplier review. Hermanos Red Pepper is the highest priority given its parent brand is the #1 revenue driver
+- **Increase recyclable product mix** from 44.04% toward 55%+ in the next catalog cycle prioritize Zone 1 brands that are also recyclable for marketing and shelf placement
+- **Protect Zone 1 brands** (Hermanos, Tell Tale, Ebony) with consistent stock availability and prime shelf positioning
 
 ---
 
-### 4) Expand Deluxe Supermarket — Phase Out Small Grocery
-**Problem:** Small Grocery contributes only 1.9% of total revenue ($34K). Deluxe Supermarket generates the highest revenue per sqft. Store 5 generates only $4.9K a 34.8x gap vs the top store.
+### 4) Expand Deluxe Supermarket Phase Out Small Grocery
+**Problem:** Small Grocery at 1.9% of revenue ($34K). Store 5 at $4.9K - 34.8x below the top store. Deluxe Supermarket delivers the highest revenue per sqft consistently.
 
 **Recommendation:**
-- **Convert Small Grocery locations to Deluxe Supermarket format** where real estate and catchment area permits Store 13 (Deluxe, $170.4K) and Store 17 (Deluxe, $157.7K) demonstrate that this format can deliver 5x+ the revenue of a Small Grocery location
-- **Conduct an urgent operational audit of Store 5** at $4.9K determine whether the issue is location, management, product mix, or customer awareness. If no viable recovery path exists within 6 months, consider closure or relocation
-- **Standardize the 11 below-average stores** by implementing best practices from the top-performing Deluxe Supermarket stores including product assortment, shelf layout, promotional cadence, and staff training
-- **Prioritize Deluxe Supermarket for all new store openings** the format consistently delivers the highest revenue per sqft across the portfolio and should be the default expansion vehicle
+- **Convert Small Grocery locations to Deluxe Supermarket format** where feasible Store 13 ($170.4K) and Store 17 ($157.7K) confirm this format can deliver 5x+ the revenue of a Small Grocery location
+- **Conduct urgent operational audit of Store 5** at $4.9K if no viable recovery path exists within 6 months, proceed with closure or relocation
+- **Standardize the 11 below-average stores** using best practices from top Deluxe Supermarket locations covering product assortment, shelf layout, promotional cadence, and staff training
+- **Default all new store openings to Deluxe Supermarket format** the data consistently supports this as the highest-return expansion vehicle
 
 ---
 
 ### 5) Capitalize on Seasonal Demand
-**Problem:** Revenue peaked in December 1998 at $120.16K significantly above the mid-year plateau of $92–101K. Tell Tale generated 87.5% of its annual revenue in December.
+**Problem:** December 1998 peaked at $120.16K while mid-year plateaued at $92–101K. Tell Tale generated 87.5% of its annual revenue in December alone.
 
 **Recommendation:**
-- **Build a formal Q4 seasonal strategy**, the December peak is not accidental. Develop dedicated holiday promotions, seasonal product bundles, and increased inventory
-  pre-positioning starting October each year to capture maximum seasonal demand
-- **Leverage Tell Tale as a seasonal anchor brand**, its December concentration makes it a natural hero product for holiday campaigns. Bundle it with year-round performers like Hermanos to drive cross-sell revenue
-- **Address the mid-year plateau** ($92–101K from March to October 1998) with targeted mid-year promotions a loyalty double-points event or seasonal product launch in May–June could break the ceiling and create a second revenue peak during the year
+- **Build a formal Q4 seasonal strategy** develop dedicated holiday promotions, seasonal bundles, and pre-positioned inventory starting October each year
+- **Position Tell Tale as the seasonal anchor brand** for holiday campaigns bundle it with year-round performers like Hermanos to drive cross-sell during peak season
+- **Address the mid-year revenue plateau** with a targeted May–June promotional event a loyalty double-points campaign or limited seasonal product launch could create a second revenue peak and reduce annual revenue volatility
 
 ---
 
 ### 6) Target High-Value Customer Segments
-**Problem:** Clerical occupation at $30.6K is severely underrepresented. Graduate Degree holders contribute only $93.6K. Professional segment already dominates at 31.9%.
+**Problem:** Clerical at $30.6K is severely underrepresented. Graduate Degree holders at $93.6K are underperforming relative to their likely disposable income.
 
 **Recommendation:**
-- **Protect and deepen the Professional segment** at 31.9% of revenue it is the single most valuable occupation group. Ensure product assortment, store experience, and loyalty
-  rewards are aligned with the preferences of this segment
-- **Investigate the Clerical segment gap** $30.6K from Clerical workers is disproportionately low. This may reflect a pricing accessibility issue. Consider value bundles or entry-level loyalty incentives specifically designed for lower-income occupation segments
-- **Test premium product lines for Graduate Degree customers** this segment is currently underrepresented at $93.6K but likely has higher disposable income. Introducing premium or organic product ranges in high-education catchment areas could unlock a new revenue tier
-- **Maintain accessible pricing for core working-class base** Partial High School ($533.2K) and High School Degree ($521.7K) customers are the revenue backbone. Any pricing or positioning shift toward premium must not alienate this core segment
+- **Protect the Professional segment** at 31.9% of revenue align product assortment, store experience, and loyalty rewards to this group's preferences
+- **Investigate the Clerical gap** value bundles and entry-level loyalty incentives designed for lower-income segments could unlock this underserved group
+- **Test premium product lines in high-education catchment areas** Graduate Degree customers likely have higher disposable income; organic or premium ranges could unlock a new revenue tier without alienating the core base
+- **Maintain accessible pricing for the working-class core** Partial High School ($533.2K) and High School Degree ($521.7K) customers are the revenue backbone and must not be displaced by any premium repositioning
 
 ---
 
@@ -262,7 +250,7 @@ Central West generates only $9.3K and is effectively non-operational.
 | Priority | Action | Expected Impact |
 |---|---|---|
 | 🔴 Immediate | Audit Store 5 ($4.9K) | Recover or reallocate |
-| 🔴 Immediate | Quality review — top 3 returned products | Protect brand equity |
+| 🔴 Immediate | Quality review top 3 returned products | Protect brand equity |
 | 🔴 Immediate | Review Central West ($9.3K) | Recover or exit |
 | 🟡 Short-term | Launch loyalty upgrade campaign | Increase avg basket size |
 | 🟡 Short-term | Promote or remove 7-day slow movers | Improve shelf velocity |
