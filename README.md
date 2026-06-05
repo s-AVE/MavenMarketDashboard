@@ -138,8 +138,6 @@ The business retains $0.58 of every $1.00 sold, confirming strong pricing power 
 A return rate of 0.99% below the 1% threshold further validates product quality consistency, 
 indicating that less than 1 in 100 items purchased is returned across the entire catalog.
 
----
-
 ### B. Product Performance
 
 **Revenue & Brand**
@@ -147,8 +145,6 @@ Hermanos leads all brands at $56.7K in revenue, with the top 10 brands clusterin
 competitive mid-tier with no single dominant outlier. The average margin of 59.67% is consistent across all top brands,
 confirming volume and profitability are aligned. However, a cluster of slow-moving brands averages 7 days on shelf 75%
 slower than the 4-day portfolio average and the top 3 returned products all exceed the portfolio return rate by 3x.
-
----
 
 ### C. Store Performance
 
